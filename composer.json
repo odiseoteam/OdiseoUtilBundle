@@ -1,0 +1,25 @@
+{
+	"name" : "odiseoteam/odiseo-util-bundle",
+	"type" : "symfony-bundle",
+	"description" : "This bundle has a useful utilities features for symfony",
+	"keywords" : [
+		"symfony",
+		"utilities"
+	],
+	"homepage" : "http://odiseo.com.ar",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Odiseo Team",
+			"email" : "team@odiseo.com.ar"
+		}
+	],
+	"require" : {
+		"php" : ">=5.3.9",
+        "symfony/symfony": "^3.2",
+        "doctrine/orm": "^2.5",
+        "doctrine/doctrine-bundle": "^1.6"
+	},
+	"autoload" : {
+		"psr-4": { "Odiseo\\Bundle\\UtilBundle\\": "" }
+	}
+}
